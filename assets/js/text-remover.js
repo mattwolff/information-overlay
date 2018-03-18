@@ -31,7 +31,8 @@
 		(window.bookmarklet = function() {
 			// Replace this section with your own Information Overlay script
 			$("body").contents().filter(function() {return this.nodeType === 3;}).wrap("<p></p>").end();
-			$("h1, h2, h3, h4, h5, h6, p, ul, ol, pre, span, strong, b, em, a, mark, i").css("opacity", "0");
+			$("h1, h2, h3, h4, h5, h6, p, ul, ol, pre, span, strong, b, em, a, mark, i").css("color", "rgba(0,0,0,0)");
+			$("*").css("color", "rgba(0,0,0,0)");
 			$("img").css("opacity", "1");
 			$("svg").css("opacity", "1");
 		})();
