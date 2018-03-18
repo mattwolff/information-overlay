@@ -31,7 +31,7 @@
 		(window.bookmarklet = function() {
 			// Replace this with your Bookmarklet script
 			$('head').append('<link rel="stylesheet" href="https://mattwolff.github.io/information-overlay/assets/css/image-overlay.css" type="text/css" />');
-	    $("body").append('<div class="overlay-image-wrapper"><img id="overlay-image" src="assets/images/dot.png" /></div>');
+	    $("body").append('<div class="overlay-image-wrapper"><img id="overlay-image" src="https://mattwolff.github.io/information-overlay/assets/images/dot.png" /></div>');
 
 		})();
 	}
