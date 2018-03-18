@@ -30,7 +30,8 @@
 	function initBookmarklet($) {
 		(window.bookmarklet = function() {
 			// Replace this section with your own Information Overlay script
-	    $("img").css("display", "none");
+	    $("img").css("opacity", "0");
+			$("svg").css("opacity", "0");
 			$("*").css("background-image", "none");
 		})();
 	}
