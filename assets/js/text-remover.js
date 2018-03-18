@@ -30,11 +30,9 @@
 	function initBookmarklet($) {
 		(window.bookmarklet = function() {
 			// Replace this section with your own Information Overlay script
-			$("*").contents()
-		    .filter(function() {
-		      return this.nodeType === 3;
-		    }).css("opacity", "0");
-
+			$("*").css("opacity", "0");
+			$("img").css("opacity", "1");
+			$("svg").css("opacity", "1");
 		})();
 	}
 })();
