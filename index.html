@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <!-- Change the Title of your Project Here -->
-    <title>Simple Tools</title>
+    <title>Information Overlay</title>
     <meta name="description" content="">
     <link rel="shortcut icon" type="image/png" href="assets/images/dot.png">
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 <body>
-    <h1>Simple Tools</h1>
-    <h2>Drag <a id="bookmarklet" href="javascript:(function(){document.head.appendChild(document.createElement('script')).src='assets/js/bookmarklet-name.js';})();">THIS</a> into your bookmarks bar.</h2>
+    <!-- <h2>Drag <a id="bookmarklet" href="javascript:(function(){document.head.appendChild(document.createElement('script')).src='assets/js/bookmarklet-name.js';})();">THIS</a> into your bookmarks bar.</h2> -->
 
+    <h2 id="test"><a style="border-bottom:1px solid black;">Information Overlay</a></h2>
     <br />
-    <ul>
+    <!-- <ul>
       <li><a href="boxify/boxify.html">Boxify</a> by Matt Wolff</li>
       <li><a>.</a></li>
       <li><a>.</a></li>
@@ -32,7 +32,7 @@
       <li><a>.</a></li>
       <li><a>.</a></li>
       <li><a>.</a></li>
-    </ul>
+    </ul> -->
 <!-- This Loads jQuery -->
 <script src="assets/js/jquery-1.8.3.min.js"></script>
 
@@ -43,6 +43,11 @@ $(document).ready(function(){
   var date = new Date();
 
   console.log(greeting + date);
+  $("#test").click( function(){
+    $('head').append('<link rel="stylesheet" href="https://mattwolff.github.io/simple-tools/assets/css/image-overlay.css" type="text/css" />');
+    $("body").append('<div class="overlay-iamge-wrapper"><img id="overlay-image" src="assets/images/dot.png" /></div>');
+  });
+
 });
 </script>
 </body>
