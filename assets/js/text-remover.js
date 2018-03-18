@@ -30,9 +30,8 @@
 	function initBookmarklet($) {
 		(window.bookmarklet = function() {
 			// Replace this section with your own Information Overlay script
-			$("*").css("opacity", "0");
-			$("img").css("opacity", "1");
-			$("svg").css("opacity", "1");
+			$("body").contents().filter(function() {return this.nodeType === 3;}).wrap("<p></p>").end();
+			$("h1, h2, h3, h4, h5, h6, p, ul, ol, span").css("opacity", "0");
 		})();
 	}
 })();
