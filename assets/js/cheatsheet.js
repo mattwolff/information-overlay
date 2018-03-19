@@ -19,7 +19,26 @@ $(document).ready(function(){
 		// TEXT OVERLAYER
 			var text = "Hello World";
 
-			$('head').append('<link rel="stylesheet" href="https://mattwolff.github.io/information-overlay/assets/css/image-overlay.css" type="text/css" />');
+			$('head').append('<link rel="stylesheet" href="https://mattwolff.github.io/information-overlay/assets/css/four-corners.css" type="text/css" />');
 	    $("body").append('<div class="overlay-text-wrapper">' + text + '</div>');
+
+		// FOUR CORNERS OVERLAY
+			// Top Left
+			$("body").append('
+				<div class="four-corners-top-left"></div>'
+			);
+			// Top Right
+			$("body").append('
+				<div class="four-corners-top-right"></div>'
+			);
+			// Bottom Left
+			$("body").append('
+				<div class="four-corners-bottom-left"></div>'
+			);
+
+			// Bottom Right
+			$("body").append('
+				<div class="four-corners-bottom-left"></div>'
+			);
 	});
 });
