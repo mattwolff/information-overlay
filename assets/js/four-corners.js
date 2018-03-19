@@ -32,22 +32,13 @@
 			// Replace this section with your own Information Overlay script
 			$('head').append('<link rel="stylesheet" href="https://mattwolff.github.io/information-overlay/assets/css/four-corners.css" type="text/css" />');
 			// Top Left
-			$("body").append('
-				<div class="four-corners top-left">Top Left</div>'
-			);
+			$("body").append('<div class="four-corners top-left">Top Left</div>');
 			// Top Right
-			$("body").append('
-				<div class="four-corners top-right">Top Right</div>'
-			);
+			$("body").append('<div class="four-corners top-right">Top Right</div>');
 			// Bottom Left
-			$("body").append('
-				<div class="four-corners bottom-left">Bottom Left</div>'
-			);
-
+			$("body").append('<div class="four-corners bottom-left">Bottom Left</div>');
 			// Bottom Right
-			$("body").append('
-				<div class="four-corners bottom-right">Bottom Right</div>'
-			);
+			$("body").append('<div class="four-corners bottom-right">Bottom Right</div>');
 
 		})();
 	}
