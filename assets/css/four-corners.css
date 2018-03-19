@@ -3,6 +3,8 @@
   z-index: 1000001;
   background: black;
   color: white;
+  font-family: sans-serif;
+  font-size: 120px;
 }
 
 .four-corners.top-left {
