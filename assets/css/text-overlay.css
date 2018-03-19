@@ -9,9 +9,12 @@
 }
 
 .overlay-text-inner {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 1em;
     font-family: sans-serif;
     font-size: 60px;
-    color: blue;
     font-weight: bold;
-    text-transform: uppercase;
+    color: black;
+    border: 12px solid black;
 }
