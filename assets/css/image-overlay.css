@@ -6,10 +6,12 @@
     text-align: center;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
+    pointer-events: none;
 }
 
 #overlay-image {
     max-width: 100%;
     height: calc(100vh - 16px);
     z-index: 1000001;
+    pointer-events: none;
 }
