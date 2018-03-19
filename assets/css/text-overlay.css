@@ -1,0 +1,17 @@
+.overlay-text-wrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100vw;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.overlay-text-inner {
+    font-family: sans-serif;
+    font-size: 60px;
+    color: blue;
+    font-weight: bold;
+    text-transform: uppercase;
+}

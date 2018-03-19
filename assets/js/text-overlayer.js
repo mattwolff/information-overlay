@@ -30,9 +30,11 @@
 	function initBookmarklet($) {
 		(window.bookmarklet = function() {
 			// Replace this section with your own Information Overlay script
-			var image = "https://mattwolff.github.io/information-overlay/assets/images/future.gif";
-			$('head').append('<link rel="stylesheet" href="https://mattwolff.github.io/information-overlay/assets/css/image-overlay.css" type="text/css" />');
-	    $("body").append('<div class="overlay-image-wrapper"><img id="overlay-image" src="' + image + '" /></div>');
+			var text = "Hello World";
+
+			$('head').append('<link rel="stylesheet" href="https://mattwolff.github.io/information-overlay/assets/css/text-overlay.css" type="text/css" />');
+
+	    $("body").append('<div class="overlay-text-wrapper"><div class="overlay-text-inner">' + text + '</div></div>');
 
 		})();
 	}
