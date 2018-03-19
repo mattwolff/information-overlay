@@ -32,6 +32,7 @@
 			// Replace this section with your own Information Overlay script
 			$('head').append('<link rel="stylesheet" href="https://mattwolff.github.io/information-overlay/assets/css/four-corners.css" type="text/css" />');
 			// Top Left
+			console.log("Hello World");
 			$("body").append('<div class="four-corners top-left">Top Left</div>');
 			// Top Right
 			$("body").append('<div class="four-corners top-right">Top Right</div>');
