@@ -6,6 +6,7 @@
     text-align: center;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
+    z-index: 1000001;
 }
 
 .overlay-text-inner {
@@ -18,5 +19,4 @@
     color: black;
     border: 12px solid black;
     border-radius: 50%;
-    z-index: 1000001;
 }
