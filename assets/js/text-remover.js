@@ -31,6 +31,7 @@
 		(window.bookmarklet = function() {
 			// Replace this section with your own Information Overlay script
 			$("*").css("color", "rgba(0,0,0,0)");
+			$("*").css("-webkit-text-stroke", "none");
 		})();
 	}
 })();
