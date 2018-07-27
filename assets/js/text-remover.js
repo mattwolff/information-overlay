@@ -30,8 +30,8 @@
 	function initBookmarklet($) {
 		(window.bookmarklet = function() {
 			// Replace this section with your own Information Overlay script
-			$("*").css("color", "rgba(0,0,0,0)!important");
-			$("*").css("-webkit-text-stroke", "initial!important");
+			$("*").css("color", "rgba(0,0,0,0)");
+			$("*").css("-webkit-text-stroke", "initial");
 			$("*").attr("placeholder", "");
 		})();
 	}
